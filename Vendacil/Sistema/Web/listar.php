@@ -12,10 +12,6 @@ $sql = $pdo->prepare("SELECT id, nome, email FROM `usuarios`");
 $sql->execute(array());
 $info = $sql->fetchAll(PDO::FETCH_ASSOC);
 
-/* echo "<pre>";
-print_r($info);
-echo "</pre>";
- */
 
 ?>
 
@@ -42,7 +38,6 @@ echo "</pre>";
 
 <div class="d-flex">
 <a class="btn btn-dark" href="../Web 2/logout.php">SAIR</a>
-            <a class="btn btn-danger" href="../Web 3/principal.php">VOLTAR</a>
         </div>
     </div>
 </nav>
