@@ -51,7 +51,7 @@ session_start();
                     <option value=""></option>
                         <option value="Pato">Patos de brinquedo</option>
                         <option value="Pelucia">Pelúcias</option>
-                        <option value="PercyJackson">Livro: Percy PercyJackson</option>
+                        <option value="PercyJackson">Livro: Percy Jackson</option>
                         <option value="PequenoPrincipe">Livro: O pequeno príncipe</option>
                     </select>
                 </div>
