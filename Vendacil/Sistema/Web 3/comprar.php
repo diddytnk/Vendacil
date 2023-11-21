@@ -44,6 +44,18 @@ session_start();
                 </div>
             </div>
 
+        <div class="row py-2">
+                <div class="col-md-6">
+                    <p> Selecione o que deseja comprar </p>
+                    <select class="form-control" name="especificacao" id="" required>
+                    <option value=""></option>
+                        <option value="Pato">Patos de brinquedo</option>
+                        <option value="Pelucia">Pelúcias</option>
+                        <option value="PercyJackson">Livro: Percy PercyJackson</option>
+                        <option value="PequenoPrincipe">Livro: O pequeno príncipe</option>
+                    </select>
+                </div>
+
 
 
 
