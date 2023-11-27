@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <input class="form-control" type="text" name="nome" id="" placeholder="Primeiro nome" 
                     value="<?php
                             if (isset($info)) {
@@ -73,7 +73,7 @@
             </div>
 
             <div class="row mt-3">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <input class="form-control" type="text" name="end" id="" placeholder="Endereço" 
                     value="<?php
                             if (isset($info)) {
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="row mt-3">
-                <div class="col-md-10">
+                <div class="col-md-5">
                     <input class="form-control" type="text" name="cep" id="" placeholder="CEP" 
                     value="<?php
                             if (isset($info)) {
@@ -203,7 +203,6 @@
 
 
             <input class="btn btn-lg btn-success mt-5" name="atualizar" type="submit" value="Atualizar dados">
-
             <a class="btn btn-lg btn-danger mt-5 text-light" href="listar.php">Cancelar</a>
             
         </form>
