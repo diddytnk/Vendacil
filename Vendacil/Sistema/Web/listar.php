@@ -47,7 +47,7 @@ $info = $sql->fetchAll(PDO::FETCH_ASSOC);
     <div class="container text-center">
     
         <?php
-            /* VERIFICA SE EXISTE VALOR NA VAR ERRO E EXIBE NA TELA */
+           
             if (!empty($_SESSION['erro'])) {
                 echo $_SESSION['erro'];
                 unset($_SESSION['erro']);
@@ -64,7 +64,7 @@ $info = $sql->fetchAll(PDO::FETCH_ASSOC);
                 </tr>
             </thead>
             <tbody>
-            <!-- CRIAR A TABELA DINAMICAMENTE PELO PHP -->
+           
             <?php
                 
                 $pdo = new PDO('mysql:host=localhost;dbname=exemplo','root','');
@@ -98,7 +98,7 @@ $info = $sql->fetchAll(PDO::FETCH_ASSOC);
         </table>
     </div>
 
-    <!-- RODAPÉ DO SITE -->
+   
     <footer class="footer text-center fixed-bottom bg-dark py-3">
         <div class="container">
             <p class="text-light">Todos os direitos reservados. 2023</p>
