@@ -211,7 +211,7 @@
         <br><br><br><br>
     </div>
 
-    <footer class="footer py-3 bg-dark">
+    <footer class="footer fixed-bottom py-3 bg-dark">
         <div class="container text-center">
            <p class="text-light">Todos os direitos reservados - 2023</p> 
         </div>
